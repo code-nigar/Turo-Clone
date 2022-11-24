@@ -1,0 +1,10 @@
+.card-image{
+    
+    background-repeat: no-repeat;
+    height: 400px;    
+    background-position: 0 0;
+    background-position-x: center;
+    background-position-y: center;
+    height: 400px;
+    object-fit: cover;
+}
