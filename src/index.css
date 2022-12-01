@@ -11,3 +11,15 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.searchBtnBg{
+  width: 45px;
+  height: 45px;
+  background-color: #593cfb;
+  border-radius: 50%;
+}
+.search-option{
+  background-color: #fff;
+  border-radius: 26px;
+  padding: 5px 2px;
+  width: 95%;
+}
