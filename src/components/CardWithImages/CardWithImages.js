@@ -1,12 +1,12 @@
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 
-function CardWithImages() {
+function CardWithImages(props) {
   return (
-    <Card style={{ width: '160px' }}>
-      <Card.Img variant="top" src="https://resources.turo.com/f/81934/767x420/5d83e7eed9/jeep.jpg" />
-      <Card.Body>
-        <Card.Title>Card Title</Card.Title>
+    <Card style={{ width: '170px' }}>
+      <Card.Img variant="top" src={props.imgSrc}/>
+      <Card.Body style={{padding: "10px 0px 8px 0px"}}>
+        <Card.Title>{props.title}</Card.Title>
       </Card.Body>
     </Card>
   );

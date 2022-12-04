@@ -23,3 +23,9 @@ code {
   padding: 5px 2px;
   width: 95%;
 }
+.slick-slide img {
+  display: block;
+  height: 134px;
+  width: 168px;
+  object-fit: cover;
+}
