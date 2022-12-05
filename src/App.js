@@ -5,8 +5,11 @@ import Responsive from "./components/Slider/Slider";
 import CardOverlay from "./components/CardOverlay/CardOverlay";
 import Topbar from "./components/Topbar/Topbar";
 import FeaturedSection from "./components/FeaturedSection/FeaturedSection";
+import { sec1 } from "./data.mjs";
 
 function App() {
+
+  
   return (
     <div className="App">
       <Topbar />
@@ -16,7 +19,7 @@ function App() {
       <h4>Explore the world's largest car sharing market place</h4>
       <div className="d-flex justify-content-center">
         <div className="slider-section" style={{ width: "900px", marginTop:"60px" }}>
-          <Responsive />
+          <Responsive arr={sec1}/>
         </div>
       </div>
       
